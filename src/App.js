@@ -6,12 +6,13 @@ const cop = {
   member : 'MJ, SJ, EH',
 };
 
-function App() {
+const App = () => {
   return (
     <div>
       <h1>Hello {title}</h1>
       <h2>{cop.name} {cop.member} </h2>
-</div> );
-}
+    </div> 
+  );
+};
 
 export default App;
