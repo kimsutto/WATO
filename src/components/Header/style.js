@@ -5,6 +5,7 @@ export const Container = styled.header`
     top: 0px
     position: fixed;
     background-color:white;
+    border-bottom : 1px ridge black;
 `;
 export const Name = styled.div `
      display: inline-block;
