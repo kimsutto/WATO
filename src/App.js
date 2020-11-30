@@ -6,7 +6,10 @@ import Theme from './styles/Theme';
 
 import Home from '../src/pages/Home';
 import Login from '../src/pages/Login';
-import Party from '../src/pages/Party';
+import SelectPlatform from '../src/pages/SelectPlatform'; 
+import SelectRole from '../src/pages/SelectRole';
+import MakeParty from '../src/pages/MakeParty';
+import PartyList from '../src/pages/PartyList';
 import MyPage from '../src/pages/MyPage';
 
 const App = () => {
@@ -17,8 +20,14 @@ const App = () => {
         <Switch>
           <Route path='/' exact component={Home}/>
           <Route path='/login' exact component={Login}/>
-          <Route path='/party' exact component={Party}/>
-          <Route path='/myparty' exact component={MyPage}/>
+
+          <Route path='/selectplatform' exact component={SelectPlatform}/>
+          <Route path='/selectrole/:platform' exact component={SelectRole}/>
+
+          <Route path='/makeparty/:platform' exact component ={MakeParty}/>
+          <Route path='/partylist/:platform' exact component={PartyList}/>
+          
+          <Route path='/mypage' exact component={MyPage}/>
         </Switch>
       </Theme>
     </> 
