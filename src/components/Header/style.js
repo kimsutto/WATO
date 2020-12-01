@@ -9,7 +9,7 @@ export const Container = styled.header`
 `;
 export const Name = styled.div `
      display: inline-block;
-     padding: 5px 10px;
+     width : 100px;
      margin: 10px 10px;
  `;
 
@@ -21,5 +21,6 @@ export const MenuWrapper = styled.div `
 export const Menu = styled.span `
      display: inline-block;
      padding: 5px;
+     font-size : 16px;
      margin: 5px 15px;
  `;
