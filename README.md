@@ -8,8 +8,7 @@ OTT 서비스를 안전하게 같이 나눠 사용할 수 있는 플랫폼입니
 ## ProtoType
 
 ## 사용 기술 및 환경
-React
-Code Style - 
+React 
 
 ## Test 
 Jenkins CI 
@@ -19,6 +18,9 @@ Jenkins CI
 ## Issue 
 [] 비동기 활용한 빠른 통신
 [] 가스비 줄이기 
+[] reducer, useReducer
+[] 서버 로직 분리
+[] styled component 분리 
 
 ### `yarn start`
 
